@@ -11,11 +11,13 @@ public class to_find_the_area_of_a_triangle_whose_three_sides_are_given {
 
             System.out.println("Enter your second values");
             Scanner Y = new Scanner(System.in);
-            int b = Y.nextInt();
+            int b = x.nextInt();
 
             System.out.println("Enter your third values");
             Scanner Z = new Scanner(System.in);
-            int c =Z.nextInt();
+            int c =x.nextInt();
+
+            System.out.println(a+b+c);
 
             double area;
             if((a+b)>c && (a+c)>b && (b+c)>a) {
