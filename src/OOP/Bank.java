@@ -1,5 +1,8 @@
 package OOP;
 
 public class Bank {
-    int x;
+    int interestRate;
+    String AccountType;
+    String BankRegNo;
+
 }
