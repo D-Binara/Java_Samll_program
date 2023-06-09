@@ -1,3 +1,5 @@
+package non_oop;
+
 import java.util.Scanner;
 import java.math.*;
 

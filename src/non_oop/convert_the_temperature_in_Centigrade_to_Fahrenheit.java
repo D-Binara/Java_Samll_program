@@ -1,3 +1,5 @@
+package non_oop;
+
 import java.util.Scanner;
 
 public class convert_the_temperature_in_Centigrade_to_Fahrenheit {

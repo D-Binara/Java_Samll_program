@@ -1,3 +1,5 @@
+package non_oop;
+
 import java.sql.SQLOutput;
 import java.util.Scanner;
 public class to_find_out_the_average_of_a_set_of_integers {
