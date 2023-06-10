@@ -8,7 +8,7 @@ public class Bank {
     float interest;
 
     public void interestcal(){
-         interest = Balance*interestRate;
+         interest = Balance*(interestRate/100);
     }
 
 }
