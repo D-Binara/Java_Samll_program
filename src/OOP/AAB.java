@@ -5,7 +5,7 @@ public class AAB extends Bank {
 
     public static void main(String[] args) {
         Bank acc1 = new Bank();
-        acc1.AccountType = "Bina";
+        acc1.AccountType = "Savings account";
 
     }
 }
