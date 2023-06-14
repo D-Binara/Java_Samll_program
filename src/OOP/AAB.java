@@ -5,7 +5,7 @@ public class AAB extends Bank {
 
     public static void main(String[] args) {
         Bank acc1 = new Bank();
-        acc1.interestcal(10000F);
+        acc1.interestcal(10F);
         System.out.println("Your interest is = "+acc1.interest);
     }
 }

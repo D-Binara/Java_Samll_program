@@ -7,9 +7,9 @@ public class Bank {
     String BankRegNo;
     float interest;
 
-    public void interestcal(Float interestrate){
-         interestrate = Balance*(interestRate/100);
-        System.out.println(interestrate);
+    public void interestcal(Float interestRate){
+        interest = Balance*(interestRate/100);
+        System.out.println("Bank interest rate ="+interestRate);
     }
 
 }
