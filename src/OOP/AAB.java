@@ -1,11 +1,11 @@
 package OOP;
 
 public class AAB extends Bank {
-    public int account_number;
 
-    public static void main(String[] args) {
-        Bank acc1 = new Bank();
-        acc1.interestcal(10F);
-        System.out.println("Your interest is = "+acc1.interest);
+    public AAB(int interestRate) {
+        super(interestRate);
     }
+
+    //fd rate
+    //acc.interestcal(10);
 }
