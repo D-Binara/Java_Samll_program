@@ -2,7 +2,7 @@ package OOP;
 
 public class Bank {
     private final float interestRate;
-    private float balance = 125;
+    private float balance ;
     private String AccountType;
     private String BankRegNo;
     private float interest;
@@ -27,7 +27,7 @@ public class Bank {
     }
 
     public void interestcal(){
-        this.interest = this.balance*(interestRate/100);;
+        this.interest = this.balance*(interestRate/100);
         System.out.println("Bank balance ="+balance);
         System.out.println("Bank interest rate ="+interestRate);
     }

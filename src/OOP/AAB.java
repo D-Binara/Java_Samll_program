@@ -6,6 +6,4 @@ public class AAB extends Bank {
         super(interestRate);
     }
 
-    //fd rate
-    //acc.interestcal(10);
 }
